@@ -98,7 +98,7 @@ body {
 
 .main__text {
   font-size: 22px;
-  font-family: Roboto;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
   padding: 20px 0 40px 0;
   width: 80%;
   margin: 0;
@@ -108,7 +108,7 @@ body {
   font-size: 18px;
   font-family: Roboto;
   background-color: #0056ec;
-  color: #ffffff;
+  color: #fff;
   border-radius: 4px;
   width: 271px;
   height: 57px;
