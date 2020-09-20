@@ -12,13 +12,14 @@ body {
   justify-content: space-between;
 }
 
-.logo, .nav {
+.logo, 
+.nav {
   display: inline-block;
 }
 
 .logo {
   position: relative;
-  padding: 40px 0;  
+  padding: 40px 0;
   padding-left: 44px;
   font: bold 24px/31px PT Serif, Arial, Helvetica, sans-serif;
 }
@@ -30,7 +31,7 @@ body {
   top: 50%;
   left: 0;
   transform: translateY(-50%);
-  background: #0056EC;
+  background: #0056ec;
   opacity: 0.7;
   border-radius: 50%;
 }
@@ -38,7 +39,7 @@ body {
 .logo__circle_color_blue {
   left: 8px;
   top: 56%;
-  background: #C8DBFB;
+  background: #c8dbfb;
   opacity: 0.7;
   border-radius: 50%;
 }
@@ -58,14 +59,14 @@ body {
 .nav__item {
   padding: 0 13px;
   font-size: 18px;
-  font-family: "Roboto";
+  font-family: Roboto;
   text-decoration: none;
   color: black;
 }
 
 .nav__item:hover {
   text-decoration: underline;
-  border-bottom: solid #0056EC;
+  border-bottom: solid #0056ec;
 }
 
 .nav__item:last-child {
@@ -86,19 +87,18 @@ body {
 }
 
 .main__title {
-  font-size: 66px;
-  font-family: "PTSerif";
+  font: bold 66px/85px PT Serif, Arial, Helvetica, sans-serif;
   margin: 0;
   padding:0 0 20px 0;
 }
 
 .main__title-with-background {
-  background-color: #ECF3FF;
+  background-color: #ecf3ff;
 }
 
 .main__text {
   font-size: 22px;
-  font-family: "Roboto";
+  font-family: Roboto;
   padding: 20px 0 40px 0;
   width: 80%;
   margin: 0;
@@ -106,8 +106,9 @@ body {
 
 .main__button {
   font-size: 18px;
-  font-family: "Roboto";
-  background-color: #0056EC;
+  font-family: Roboto;
+  background-color: #0056ec;
+  color: #FFFFFF;
   border-radius: 4px;
   width: 271px;
   height: 57px;
