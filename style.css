@@ -11,6 +11,7 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
+  padding: 40px 0;
 }
 
 .logo, .nav {
@@ -19,12 +20,13 @@ body {
 }
 
 .logo {
-  padding: 40px 0;
-  font-family: 'PT Serif', serif;
-  font-size: 24px;
+  width: 190px;
+  height: 35px;
+  background: url("img/logo.svg");
 }
 
 .nav {
+  display: inline-block;
   display: flex;
   align-items: center;
 }
@@ -51,6 +53,7 @@ body {
   justify-content: space-between;
   border: dashed 1px red;
   display: flex;
+  height: calc(100vh - 118px);
 }
 
 .main {
