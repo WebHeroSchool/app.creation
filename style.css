@@ -63,7 +63,7 @@ body {
   font-family: Roboto, Arial, Helvetica, sans-serif;
   text-decoration: none;
   color: black;
-  transition: opacity .5s;
+  transition: opacity 0.5s;
 }
 
 .nav__item:last-child {
@@ -71,10 +71,10 @@ body {
 }
 
 .nav__item:hover {
-  opacity: .5;
+  opacity: 0.5;
 }
 
-.nav__item:hover:after {
+.nav__item:hover::after {
   position: absolute;
   display: block;
   content: "";
