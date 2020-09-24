@@ -60,7 +60,7 @@ body {
 .nav__item {
   position: relative;
   margin-right: 26px;
-  font-size: 18px;
+  font-size: 14px;
   font-family: Roboto, Arial, Helvetica, sans-serif;
   text-decoration: none;
   color: black;
@@ -86,7 +86,7 @@ body {
 }
 
 .main {
-  padding: 0 63% 100px 0;
+  padding: 0 54% 100px 0;
   background: top right no-repeat url("img/Frame.svg");
 }
 
@@ -101,7 +101,6 @@ body {
 
 .main__text {
   font: 18px/21px "Roboto", Arial, Helvetica, sans-serif;
-  width: 80%;
   margin: 0 0 41px 0;
 }
 
@@ -110,9 +109,7 @@ body {
   font: 14px/16px "Roboto", Arial, Helvetica, sans-serif;
   background-color: #0056ec;
   color: #fff;
-/*   border-radius: 4px;
-  width: 271px;
-  height: 57px; */
+  border-radius: 4px;
   padding: 14px 16px;
   text-decoration: none;
   transition: opacity 0.5s;
