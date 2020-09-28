@@ -120,3 +120,42 @@ body {
 .main__button:hover {
   opacity: 0.5;
 }
+
+@media (max-width: 768px) {
+  .logo {
+    
+  }
+
+  .nav {
+    display: none;
+    }
+  
+  .header {
+    margin-bottom: 28px;
+  }
+
+  .main {
+    padding: 65% 0 0;
+    background-size: 65%;
+    background-position: top center;
+  }
+
+  .main__title {
+    margin-bottom: 32px;
+    font: bold 30px/39px 'PT Serif', Arial, Helvetica, sans-serif;
+    text-align: center;
+  }
+
+  .main__text {
+    margin-bottom: 25px;
+    font: 500 16px/19px 'Roboto', Arial, Helvetica, sans-serif ;
+    font-family: Roboto;
+    text-align: center;
+    width: 100%;
+  }
+
+  .main__button {
+    font: 500 14px/16px 'Roboto', Arial, Helvetica, sans-serif ;
+    justify-content: center;
+  }
+}
