@@ -122,8 +122,14 @@ body {
 }
 
 @media (max-width: 768px) {
+  .wrapper {
+    margin: auto;
+    width: 87%;
+  }
+
   .logo {
-    
+    position: relative;
+    padding: 24px 24px 20px 28px;
   }
 
   .nav {
@@ -131,31 +137,39 @@ body {
     }
   
   .header {
-    margin-bottom: 28px;
+    margin-bottom: 11px;
   }
 
   .main {
-    padding: 65% 0 0;
-    background-size: 65%;
+    padding: 80% 0 0;
+    background-size: 86%;
     background-position: top center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
   }
 
   .main__title {
+    text-align: center;
     margin-bottom: 32px;
     font: bold 30px/39px 'PT Serif', Arial, Helvetica, sans-serif;
-    text-align: center;
   }
 
   .main__text {
-    margin-bottom: 25px;
+    text-align: center;
+    margin: 0 auto 25px;
     font: 500 16px/19px 'Roboto', Arial, Helvetica, sans-serif ;
     font-family: Roboto;
-    text-align: center;
-    width: 100%;
+    width: 79%;
+
   }
 
   .main__button {
+    display: inline-block;
+    text-align: center;
     font: 500 14px/16px 'Roboto', Arial, Helvetica, sans-serif ;
     justify-content: center;
+    margin: auto;
+    padding: 15px 20px;
   }
 }
