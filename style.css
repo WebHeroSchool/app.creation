@@ -173,3 +173,35 @@ body {
     padding: 15px 20px;
   }
 }
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .wrapper {
+    margin: auto;
+    width: 91%;
+  }
+
+  .nav__item {
+    font: 500 14px/16px 'Roboto', Arial, Helvetica, sans-serif;
+  }
+
+  .nav {
+    padding-bottom: 9px;
+  }
+
+  .header {
+    margin-bottom: 98px;
+  }
+
+  .main {
+    padding: 0 50% 140px 0;
+    background-size: 55%;
+  }
+
+  .main__title {
+    font: bold 50px/66px 'PT Serif', Arial, Helvetica, sans-serif;;
+  }
+
+  .main__text {
+    font: 500 18px/21px 'Roboto', Arial, Helvetica, sans-serif;
+  }
+}
