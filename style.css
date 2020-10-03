@@ -52,7 +52,7 @@ body {
 } */
 
 .nav {
-  display: flex; 
+  display: flex;
   align-items: center;
   margin-right: 11px;
   order: 3;
@@ -121,9 +121,10 @@ body {
 .main__button:hover {
   opacity: 0.5;
 }
-  #checkbox {
-    display: none;
-  }
+
+#checkbox {
+  display: none;
+}
 
 @media (max-width: 768px) {
   .wrapper {
@@ -162,12 +163,12 @@ body {
     width: 100vw;
     height: 100vh;
     position: absolute;
-    top:0;
-    left:0;
+    top: 0;
+    left: 0;
     background: white;
     z-index: 2;
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
   }
@@ -188,7 +189,6 @@ body {
     background: #0056ec;
     justify-content: space-between;
     display: inline-block;
-    justify-content: space-between;
   }
 
   .main {
@@ -209,16 +209,14 @@ body {
   .main__text {
     text-align: center;
     margin: 0 auto 25px;
-    font: 500 16px/19px 'Roboto', Arial, Helvetica, sans-serif ;
-    font-family: Roboto;
+    font: 500 16px/19px 'Roboto', Arial, Helvetica, sans-serif;
     width: 79%;
-
   }
 
   .main__button {
     display: inline-block;
     text-align: center;
-    font: 500 14px/16px 'Roboto', Arial, Helvetica, sans-serif ;
+    font: 500 14px/16px 'Roboto', Arial, Helvetica, sans-serif;
     justify-content: center;
     margin: auto;
     padding: 14px 22px;
@@ -260,7 +258,7 @@ body {
 
   .main__text {
     font: 500 18px/21px 'Roboto', Arial, Helvetica, sans-serif;
-    margin: 0px 0 42px 0;
+    margin: 0 0 42px 0;
   }
 
   .main__button {
@@ -285,15 +283,12 @@ body {
 
   .nav__item {
     font: 500 14px/16px 'Roboto', Arial, Helvetica, sans-serif;
+    margin-right: 26px;
   }
 
   .nav {
     padding: 6px 4px 0 0;
     margin-right: 0;
-  }
-
-  .nav__item {
-    margin-right: 26px;
   }
 
   .header {
