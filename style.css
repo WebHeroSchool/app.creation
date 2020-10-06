@@ -172,9 +172,9 @@ body {
     align-items: center;
     justify-content: center;
   }
-  
+
   .burger-line {
-    transition: all .3s;
+    transition: all 0.3s;
   }
 
   .label--active .burger-wrapper .burger-line:nth-child(2) {
