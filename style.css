@@ -172,6 +172,24 @@ body {
     align-items: center;
     justify-content: center;
   }
+  
+  .burger-line {
+    transition: all .3s;
+  }
+
+  .label--active .burger-wrapper .burger-line:nth-child(2) {
+    display: none;
+  }
+
+  .label--active .burger-wrapper .burger-line:nth-child(1) {
+    transform: rotate(45deg);
+  }
+
+  .label--active .burger-wrapper .burger-line:nth-child(3) {
+    transform: rotate(-45deg);
+    position: relative;
+    top: -14px;
+  }
 
   .burger-wrapper {
     width: 25px;
