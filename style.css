@@ -236,7 +236,7 @@ body {
     text-align: center;
     font: 500 14px/16px 'Roboto', Arial, Helvetica, sans-serif;
     justify-content: center;
-    margin: auto;
+    margin: 0 auto 25px;
     padding: 14px 22px;
   }
 }
