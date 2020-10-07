@@ -173,6 +173,24 @@ body {
     justify-content: center;
   }
 
+  .burger-line {
+    transition: all 0.3s;
+  }
+
+  .label--active .burger-wrapper .burger-line:nth-child(2) {
+    display: none;
+  }
+
+  .label--active .burger-wrapper .burger-line:nth-child(1) {
+    transform: rotate(45deg);
+  }
+
+  .label--active .burger-wrapper .burger-line:nth-child(3) {
+    transform: rotate(-45deg);
+    position: relative;
+    top: -14px;
+  }
+
   .burger-wrapper {
     width: 25px;
     height: 17px;
@@ -218,7 +236,7 @@ body {
     text-align: center;
     font: 500 14px/16px 'Roboto', Arial, Helvetica, sans-serif;
     justify-content: center;
-    margin: auto;
+    margin: 0 auto 25px;
     padding: 14px 22px;
   }
 }
